@@ -75,7 +75,8 @@ main {
   gap: 8px;
   height: 28px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 input {
@@ -91,13 +92,6 @@ input {
   gap: 8px;
 }
 
-#canvas-container {
-  border: 8px solid #E76F51;
-  width: 600px;
-  height: 600px;
-  border-radius: 16px;
-  background-color: white;
-}
 
 #grid-size {
   appearance: none;
@@ -113,3 +107,22 @@ input {
 #grid-size:hover {
   opacity: 1; /* Cambia la opacidad al pasar el mouse */
 }
+
+#canvas-container {
+  border: 8px solid #E76F51;
+  width: 600px;
+  height: 600px;
+  border-radius: 16px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.defaultChild {
+  border: 1px solid black;
+  flex: 0 0 auto;
+}
+
