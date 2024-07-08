@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="etchASketch.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Etch A Sketch</h1>
+  </header>
+
+  <main>
+
+    <div id="options-side">
+      <h2>Options</h2>
+      <button class="option-button">Reset</button>
+      <button class="option-button">Black</button>
+      <button class="option-button">Ranbow</button>
+    </div>
+    
+    <div id="canvas-side">
+      
+      <div id="slider-container">
+        <label for="grid-size">Grid Size</label>
+        <div id="slider-val">
+          <input type="range" min="2" max="100" value="16" id="grid-size">
+          <p>X</p>
+        </div>
+      </div>
+      <div id="canvas-container"></div>
+    
+    </div>
+
+  </main>
+</body>
+
+</html>
