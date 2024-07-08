@@ -100,7 +100,7 @@ input {
 }
 
 #grid-size {
-  -webkit-appearance: none;
+  appearance: none;
   width: 200px; /* Ajusta esto según el ancho deseado */
   height: 16px; /* Ajusta el grosor de la pista */
   border-radius: 8px;
